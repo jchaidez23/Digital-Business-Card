@@ -1,0 +1,70 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.linkedin{
+    color: white;
+    background-color: #0072b1;
+    border-color: #0072b1;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.linkedinfoot{
+    color: white;
+}
+.email{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.footer{
+    
+    background-color: #232222;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0px;
+}
+
+.githubicon{
+    color: white;
+}
+.business-card{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+    background-color: #464646;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 300px;
+}
+
+.personal-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.text-text, .text-header, .text-name, .text-site{
+    color: white;
+}
+
+.text-text, .text-header{
+    margin-left: 1rem;
+}
+.text-subtitle{
+    color: goldenrod;
+}
+
+.button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
